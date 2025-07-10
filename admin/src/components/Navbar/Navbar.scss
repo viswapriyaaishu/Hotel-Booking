@@ -1,0 +1,88 @@
+.navbarcomp{
+    height:7.5vh;
+   margin-top: 0px;
+   
+    .navbarwrap{
+        display:flex;
+        justify-content: space-between;
+        margin-top:0px;
+        padding-top: 10px;
+        margin-left:30px;
+        
+        .navits{
+            display:flex;
+            gap:20px;
+            align-items: center;
+            :nth-child(1)
+            {
+                display:flex;
+                align-items: center;
+            }
+        }
+    }
+    .icon2{
+        position:relative;
+        .notificationText{
+        background-color: red;
+        color:white;
+        position:absolute;
+        top:-5px;
+        right:-1px;
+        border-radius: 50%;
+        height:2vh;
+        width:2vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:10px;
+    }
+
+    .chatText{
+        background-color: red;
+        color:white;
+        font-size:10px;
+        position:absolute;
+        top:-5px;
+        right:-1px;
+        border-radius: 50%;
+        height:2vh;
+        width:2vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+}
+
+.searchnav{
+        position:relative;
+        height:5vh;
+        
+    }
+    input{
+        height:4vh;
+        width:15vw;
+        background-color: transparent;
+    }
+    .icon1{
+        position:absolute;
+        left:205px;
+        top:1px;
+        
+    }
+
+    @media(max-width:800px ){
+        .icon1{
+        position:absolute;
+        left:90px;
+        top:1px;
+        height:1vh;
+    }
+    }
+
+    .avatar{
+        height:4vh;
+        width:4vh;
+        background-color: green;
+        border-radius: 50px;
+    }

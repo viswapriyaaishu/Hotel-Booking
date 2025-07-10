@@ -1,0 +1,108 @@
+.homecomp{
+    display:flex;
+    flex-direction:row;
+   .widgetscon{
+    display:flex;
+    gap:15px;
+    margin-left: 30px;
+    margin-top: 16px;
+   }
+
+}
+
+.homeitems{
+    flex:6;
+}
+.charts{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    gap:8px;
+}
+
+.chart1{
+    
+    flex:2;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    :nth-child(1)
+    {
+        color:rgba(128, 128, 128, 0.629);
+        font-weight: bold;
+        padding-left: 8px;
+    }
+    padding: 30px 0px;
+}
+.chart2{
+    flex:4;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201, 201, 201, 0.429);
+}
+
+.chart1c1{
+    display:flex;
+    justify-content: space-between;
+    font-size:18px;
+}
+.chartcon{
+    padding:8px;
+    
+}
+.chartdesc{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding:0px 10px;
+}
+.cprogress{
+        height:100px;
+        width:100px;
+    }
+
+.chartits{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    .chartit1{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        
+
+        .chartit1tit{
+            color:gray;
+            text-align: center;
+            
+        }
+        .chartit1icon{
+            display:flex;
+            justify-content: space-between;
+
+            &.pos{
+                color:green;
+            }
+
+            &.neg{
+                color:red;
+            }
+        }
+
+
+    }
+}
+
+.table{
+     margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding:5px;
+    p{
+        color:gray;
+        font-weight: 400;
+    }
+}

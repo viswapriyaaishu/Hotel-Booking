@@ -1,0 +1,95 @@
+.hotelscon{
+    margin-top:10px;
+display:flex;
+    justify-content:center;
+}
+
+.hotelswrap{
+    width:100%;
+    max-width:1024px;
+    display:flex;
+    gap:20px;
+}
+
+.leftpart{
+    top:10px;
+    flex:1;
+    background-color:#FFB029;
+    position:sticky;
+    border-radius:10px;
+    width:500px;
+    padding:6px;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    height:max-content;
+}
+.rpart{
+    flex:3;
+}
+
+.parts{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.cdate{
+    background-color: white;
+    padding:3px;
+    display:flex;
+    justify-content: center;
+}
+.part1{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+
+.part1>:nth-child(2){
+    height:30px;
+}
+.part2{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+
+.part3{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+
+.opits{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding-left:3px;
+}
+
+.opit1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.ntype{
+    width:40px;
+}
+
+.prices{
+    width:40px;
+}
+
+.srchbtn{
+    width:100%;
+    background-color: #0071c2;
+    height:40px;
+    border:none;
+    border-radius:8px;
+    margin-top:15px;
+}
+
+label{
+    font-weight:600;
+}

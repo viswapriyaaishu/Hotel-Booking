@@ -1,0 +1,52 @@
+tr{
+    border-bottom: 2px solid lightgrey;
+    
+}
+table{
+    border: 2px solid lightgrey;
+   
+    position: relative;
+    border-collapse:collapse;
+    width:100%;
+}
+hr{
+position: absolute;
+width: 100%;
+left:0px;
+}
+
+th,td{
+   
+    text-align: center;
+    padding:20px 40px;
+    font-weight: 400;
+}
+
+.phoava{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    img{
+        height:4vh;
+    width:4vh;
+    border-radius:50%;
+    object-fit:cover;
+    }
+}
+
+.style-1{
+    color:green;
+    background-color: rgba(0,128,0,0.151);
+    padding:4px;
+}
+
+.style-2{
+    color:goldenrod;
+    background-color: rgba(189,189,3,0.103);
+    padding:4px;
+}
+
+.sts{
+    width:90%;
+    height:80%;
+}

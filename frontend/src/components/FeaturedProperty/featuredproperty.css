@@ -1,0 +1,41 @@
+.fpty{
+    width:100%;
+    max-width:1024px;
+    
+}
+
+.fpitems{
+    display:flex;
+    gap:10px;
+}
+
+.fpitem{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+}
+
+.fpitdes>:nth-child(1){
+    font-weight:bold;
+}
+
+.fpitdes>:nth-child(2){
+    font-weight:200;
+}
+
+.fpitdes>:nth-child(3){
+    font-weight:400;
+}
+
+.rating{
+    display:flex;
+    gap:6px;
+    
+}
+
+button{
+    background-color:#003580;
+    color:white;
+    padding:1px;
+    width:24px;
+}

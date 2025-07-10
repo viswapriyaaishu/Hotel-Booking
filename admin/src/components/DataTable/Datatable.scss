@@ -1,0 +1,80 @@
+.avacon{
+    display:flex;
+    align-items:center;
+    
+    gap:4px;
+    height:10vh;
+
+    .avaimg{
+        
+        display: flex;
+        align-items: center;
+        
+        img{
+            height:4vh;
+            width:4vh;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+}
+
+.s1{
+color:green;
+    background-color: rgba(0,128,0,0.05);
+    padding:3px 10px;
+    width:max-content;
+    
+}
+.s2{
+color:goldenrod;
+    background-color: rgba(255,217,0,0.05);
+    padding:3px 10px;
+    width:max-content;
+   
+}
+.s3{
+color:crimson;
+    background-color: rgba(255,0,0,0.05);
+    padding:3px 10px;
+    width:max-content;
+  
+}
+.actionbtn{
+    display:flex;
+    gap:20px;
+    height:80%;
+}
+
+.viewbtn{
+color:darkblue;
+border:1px dotted rgba(0,0,139,0.596);
+border-radius: 5px;
+padding:3px 8px;
+margin:3px 0px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.delbtn{
+    color:crimson;
+    border:1px dotted rgba(220,20,60,0.6);
+    border-radius: 5px;
+    padding:3px 8px;
+margin:3px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.updbtn{
+    color:orangered;
+    border:1px dotted rgba(207, 220, 20, 0.833);
+    border-radius: 5px;
+    padding:3px 8px;
+margin:3px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}

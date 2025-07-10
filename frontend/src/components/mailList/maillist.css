@@ -1,0 +1,26 @@
+.mlistwrap{
+    width:100%;
+    margin-top:30px;
+    background-color:#003580;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+    padding:30px;
+}
+
+.subbtn{
+    width: 80px;
+    background-color: #0071c2;
+    padding:6px;
+    border-radius:5px;
+}
+
+
+.mlistdes>input{
+    height:40px;
+    width:250px;
+    margin-right:7px;
+    border-radius:5px;
+}

@@ -1,0 +1,150 @@
+.sidebar{
+    height:200vh;
+    flex:1;
+     border:0.5px solid rgb(230,227,227);
+     
+     
+    .topsidebar{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:#6C5ECA;
+        font-weight:bold;
+        font-size:20px;
+       margin-top:10px;
+       
+       padding-bottom: 9px;
+    }
+     p{
+                font-size:13px;
+                color:rgb(128, 128, 128);
+                margin-left:15px;
+            }
+
+    
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+    li{
+        list-style:none;
+        margin-left:22px;
+        padding:0px;
+    }
+}
+
+.listitems{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    margin-left:22px;
+    div{
+        cursor:pointer;
+    }
+    div:hover{
+        background-color: #6c5eca2c;
+        padding:4px;
+    }
+}
+
+.usefulitems{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    margin-left:22px;
+    div{
+        cursor:pointer;
+    }
+    div:hover{
+        background-color: #6c5eca2c;
+        padding:4px;
+        
+    }
+}
+
+.serviceitems{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    margin-left:22px;
+    div{
+        cursor:pointer;
+    }
+    div:hover{
+        background-color: #6c5eca2c;
+        padding:4px;
+        
+    }
+}
+
+.useritems{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    margin-left:22px;
+    div{
+        cursor:pointer;
+    }
+    div:hover{
+        background-color: #6c5eca2c;
+        padding:4px;
+        
+    }
+}
+
+@media(max-width:"1000px"){
+    .sidebar{
+        height:max-content;
+    }
+    .topsidebar{
+        padding-bottom:6px;
+    }
+}
+
+.icon{
+    height:3vh;
+    width:3vw;
+    color:#6C5ECA;
+}
+
+.iconparent{
+    display:flex;
+    justify-content:40px;
+   
+}
+
+.centersidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:15px;
+    }
+
+.colorchanger{
+    display:flex;
+    gap: 10px;
+    margin-left:22px;
+
+    :nth-child(1){
+        height:4vh;
+        width:4vh;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        border:2px solid #6C5ECA ;
+    }
+
+    :nth-child(2){
+        height:4vh;
+        width:4vh;
+        background-color:black;
+        border-radius: 10px;
+        border:2px solid #6C5ECA ;
+    }
+}
+
+.lists{
+    display:flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,38 @@
+.navbarcomp{
+    height:50px;
+    
+    background-color:#003580;
+    color:white;
+    display:flex;
+    font-size:medium;
+    font-weight:bold;
+    justify-content:center;
+    align-items:center;
+    z-index:101;
+    width:100%;
+}
+
+.navcon{
+    width:100%;
+    max-width:1024px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.btngrp{
+    outline:none;
+    margin:none;
+    margin-left:20px;
+    padding:5px 12px;
+   color:#003850;
+   border:none;
+   cursor:pointer;
+   background-color: white;
+   width: 100px;
+}
+.h1tit{
+    color:white;
+}
+.h1para{
+    color:white;
+}

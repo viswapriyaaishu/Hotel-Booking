@@ -1,0 +1,35 @@
+.listswrap{
+    display:flex;
+
+}
+.listcon{
+    
+    flex:6;
+}
+
+.listit1{
+    margin-left: 30px;
+    margin-top: 30px;
+   
+}
+
+.listheaders{
+    display:flex;
+    justify-content: space-between;
+    margin:20px 30px;
+
+    :nth-child(1){
+        font-size:25px;
+
+    }
+    :nth-child(2)
+    {
+        div{
+            color:green;
+        padding:6px;
+        border-radius:5px;
+        border:1px solid green;
+        font-size:18px;
+        }
+    }
+}

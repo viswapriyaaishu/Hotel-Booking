@@ -1,0 +1,36 @@
+.footer{
+    width:100vw;
+    max-width:1024px;
+    display:flex;
+    flex-direction: column;
+    
+    margin-bottom:10px;
+}
+.flist{
+    margin-left:0px;
+    display:flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    
+    padding-left: 0px;
+}
+
+
+ul{
+    display:flex;
+    flex-direction:column;
+    list-style: none;
+    align-items:flex-start;
+    gap:10px;
+    
+}
+li{
+    cursor:pointer;
+   
+    
+}
+
+.crights{
+    margin-left:38px;
+    font-weight: bold;
+}

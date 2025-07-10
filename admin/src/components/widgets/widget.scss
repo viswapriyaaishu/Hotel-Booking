@@ -1,0 +1,52 @@
+.widget{
+    display:flex;
+    height:150px;
+    flex:1;
+    justify-content: space-between;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+
+    .leftwidget{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+    .leftwidgetname{
+        color:gray;
+        font-size:15px;
+    }
+    .leftwidgetrating{
+        font-size:20px;
+    }
+    .leftwidgetlink{
+        border-bottom:2px solid gray;
+    }
+}
+
+.cartprices{
+    display:flex;
+    gap:3px;
+    padding-top:10px;
+    padding-right: 3px;
+}
+}
+
+.rightwidget{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.symbol{
+    align-self:end;
+}
+
+.inc{
+    color:green;
+}
+.icon3{
+   height:max-content;
+   padding:4px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-radius: 4px;
+}

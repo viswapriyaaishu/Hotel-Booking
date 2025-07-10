@@ -1,0 +1,35 @@
+.login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+    left:0px;
+    top:0px;
+}
+
+.loginwrap{
+    form{
+        width:80%;
+    height:40vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+
+    button{
+        width: 50%;
+        background-color:purple;
+        color:white;
+        padding:10px;
+    }
+    }
+    
+}
+
+.emailfield .pwdfield{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+}

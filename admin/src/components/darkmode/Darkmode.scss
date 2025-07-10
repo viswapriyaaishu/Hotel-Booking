@@ -1,0 +1,124 @@
+.dark{
+    .homecomp{
+    background-color: #222;
+    color:rgb(156,156,156);
+
+    .searchnav{
+        div{
+            input{
+                border:2px solid gray;
+            }
+        }
+    }
+    
+
+   
+    .cgrid{
+        stroke:rgb(228,228,228,0.219);
+    }
+}
+
+.listitem{
+    background-color: black;
+
+    .listitemsmaincon{
+        background-color: #222;
+    }
+}
+
+.navbarcomp{
+    color:gray;
+    background-color: #222;
+}
+.sidebar{
+    background-color: #222;
+    margin-left: 0px;
+    color:gray;
+    .topsidebar{
+        div{
+            color:#999;
+            
+        }
+        
+    }
+    hr{
+        color:#333;
+    }
+    .listitems,.usefulitems,.serviceitems,.useritems{
+       div:hover{
+        background-color: #333;
+        padding:4px;
+       }
+
+       
+    }
+    hr{
+        color:#333;
+    }
+    .icon{
+        color:#999;
+       }
+}
+
+.listcon{
+    background-color: #222;
+}
+
+.givena{
+    background-color: #222;
+    color:gray;
+}
+
+.MuiDataGrid-columnHeader {
+    background-color: #222 !important;
+    color: #ddd !important;
+    border-right: 1px solid #444 !important;
+  }
+
+  .MuiDataGrid-columnHeaders {
+    background-color: #222 !important;
+  }
+   .MuiDataGrid-row:hover {
+    background-color: #444 !important;
+  }
+
+  .statusnews,.viewbtn,.delbtn{
+    color:gray;
+    border:none;
+    background-color: #222;
+  }
+  .listheaders{
+    :nth-child(1){
+        color:gray;
+    }
+  }
+
+  .newpages1{
+    background-color: #222;
+  }
+
+  .bhoolformconit2{
+    label{
+        color:gray;
+        font-weight: 600;
+    }
+    input{
+        background-color: transparent;
+        color:gray;
+    }
+  }
+
+   .custom-table{
+        background-color: #111;
+        border-collapse: collapse;
+        tr{
+            border: 2px solid gray;
+        }
+        th,td{
+            color:gray;
+        }
+    }
+    .dol{
+        color: gray;
+    }
+}

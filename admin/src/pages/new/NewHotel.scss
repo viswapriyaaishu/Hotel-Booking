@@ -1,0 +1,96 @@
+.newhotelbaap{
+margin-left:30px;
+        margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    column-gap: 20px;
+        p{
+            -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding:20px;
+    color:gray;
+    font-size:23px;
+        }
+}
+.outerconofhotel{
+    display:flex;
+    width:100%;
+}
+.innerconofhotel{
+    flex:6;
+    height:max-content;
+    .newhotelcon{
+        
+        display:flex;
+       
+        -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding:20px;
+
+    .newhotelconlside{
+        display:flex;
+        align-items:center;
+        flex:2;
+        img{
+            height:100px;
+            width:100px;
+            border-radius:50%;
+        }
+    }
+
+    form{
+        flex:4;
+        display:flex;
+        flex-wrap:wrap;
+
+        gap:40px 60px;
+        .newhotelconimg{
+            display:flex;
+            gap:10px;
+            margin-right: 20px;
+          
+            width:290px;
+            
+            label{
+                display:flex;
+                gap:30px;
+            }
+        }
+        .hotelconfields{
+            display:flex;
+            flex-direction:column;
+            gap:5px;
+            input{
+                width:20vw;
+                border:none;
+                border-bottom:2px solid black;
+                outline:none;
+            }
+        }
+
+        button{
+            width:80%;
+                background-color: #0071c2;
+                color:white;
+                text-align: center;
+                height:5vh;
+        }
+
+        .formfeatures{
+            display:flex;
+            flex-direction: column;
+            gap:15px;
+            width:300px;
+        }
+        .formrooms{
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+            select{
+                width:100%;
+            }
+        }
+    }
+    }
+}
