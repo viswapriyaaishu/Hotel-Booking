@@ -17,6 +17,22 @@ password:{
 isAdmin:{
     type:Boolean,
     default:false
+},
+city:{
+    type:String,
+    required:true
+},
+country:{
+    type:String,
+    required:true
+},
+img:{
+    type:String,
+    required:true
+},
+phoneno:{
+    type:String,
+    required:true
 }
 },{timestamps:true})
 

@@ -8,8 +8,7 @@ export const register=async(req,res,next)=>{
         const salt=bcrypt.genSaltSync(10)
         const hashpwd=bcrypt.hashSync(req.body.password,salt)
         const newUser=new User({
-            name:req.body.name,
-            email:req.body.email,
+            ...req.body,
             password:hashpwd
         })
 
@@ -36,7 +35,7 @@ export const login=async(req,res,next)=>{
         const token=jwt.sign({id:user._id,isAdmin:user.isAdmin},process.env.ACCESS_TOKEN)
 
         const {_id,isAdmin,...otherdetails}=user._doc
-        res.cookie('access_token',token,{httpOnly:true}).status(200).json(otherdetails)
+        res.cookie('access_token',token,{httpOnly:true}).status(200).json({details:{...otherdetails},isAdmin})
 
     }
     catch(err)
